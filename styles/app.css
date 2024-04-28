@@ -1,0 +1,61 @@
+/* ~ App Fonts ~ */
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Outfit Bold";
+    src: url("../fonts/Outfit-Bold.ttf") format("truetype");
+}
+html {
+    box-sizing: border-box;
+}
+*,*:after,*:before {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Outfit";
+    margin: 0;
+    padding: 0;
+    background-color: #D5E1EF;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.centerilized__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper {
+    background-color: #FFFFFF;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 4.77%);
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+}
+.wrapper__img {
+    width: 288px;
+    height: 288px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.qr__img {
+    width: 100%;
+    border-radius: 10px;
+}
+.wrapper__texts {
+    text-align: center;
+    padding: 30px;
+}
+.wrapper__title {
+    color: #1F314F;
+    font-family: "Outfit Bold";
+    font-size: 22px;
+}
+.wrapper__description {
+    color: #7D889E;
+    font-size: 15px;
+}
